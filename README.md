@@ -1,5 +1,7 @@
 ## Gesture-based control of ArDrone
 
+[![](https://github.com/vamaral1/vamaral1.github.io/blob/master/_assets/ardrone.jpg?raw=true")](https://drive.google.com/open?id=0B_CHrALV5pLdeDN5X2JocWxzZVU)
+
 1. Install OpenNI for Ros sudo apt-get install ros-groovy-openni-*
 2. Install SensorKinect https://github.com/avin2/SensorKinect/tree/unstable
 3. Install OpenNI https://github.com/OpenNI/OpenNI/tree/unstable
