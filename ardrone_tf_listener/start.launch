@@ -1,0 +1,12 @@
+  <launch>
+    <!-- Ardrone Asus Xtion Node-->
+    <node pkg="ardrone_autonomy" type="ardrone_driver" name="ardrone_autonomy" args="-ip 192.168.1.200" output="screen" required="true"/>
+
+    <node pkg="rviz" type="rviz" name="rviz" output="screen"/>
+    
+    <node pkg="openni_tracker" type="openni_tracker" name="openni_tracker" output="screen" required="true"/>
+
+    <node pkg="ardrone_tf_listener" type="reset" name="reset_ardrone"/>
+    
+    <node pkg="ardrone_tf_listener" type="ardrone_tf_listener" name="listener"/>
+  </launch>
